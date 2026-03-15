@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gerenciamento de Usuários</h2>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Ana Silva</td>
+                    <td>ana.silva@email.com</td>
+                    <td><span class="status active">Ativo</span></td>
+                    <td><button class="btn-edit">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Bruno Costa</td>
+                    <td>bruno.c@email.com</td>
+                    <td><span class="status pending">Pendente</span></td>
+                    <td><button class="btn-edit">Editar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
